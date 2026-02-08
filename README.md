@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-sapxsumkbn@esm/index.mjs';
+import sapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-sapxsumkbn@v0.1.1-esm/index.mjs';
 ```
 
 #### sapxsumkbn.main( N, alpha, x, strideX )
@@ -270,7 +270,7 @@ The function has the following additional parameters:
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-sapxsumkbn@esm/index.mjs';
+import sapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-sapxsumkbn@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
